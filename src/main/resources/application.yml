@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    username: root
+    password: 9603
+    url: jdbc:mysql://localhost:3306/miniproject3
+    dbcp2:
+      driver-class-name: com.mysql.jdbc.Driver
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    username: chandukorada16@gmail.com
+    password: bpbxwaqjocgtugap
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
